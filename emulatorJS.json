@@ -14,7 +14,7 @@
   "restart_policy": "unless-stopped",
   "ports": [
     "3000:3000/tcp",
-    "80:80/tcp",
+    "3008:3008/tcp",
     "4001:4001/tcp"
   ],
   "network_mode": "bridge",
